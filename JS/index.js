@@ -27,6 +27,7 @@ async function getMovie(){
         mainStart.innerHTML = ''
         display.innerHTML = `<div class="error">Unable to find what you’re looking for. Please try another search.<div>`
     }
+    input.value = ''
     getMovieData(moviesIdArray)
 }
 
