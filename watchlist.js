@@ -9,7 +9,7 @@ let moviesIdArray = Object.keys(localStorage)
 //API used to get the detailed data of a particular movie
 async function getMovieData(moviesIdArray){
     for(let movieId of moviesIdArray){
-        const response = await fetch(`http://www.omdbapi.com/?apikey=ff5a3bcf&i=${movieId}`)
+        const response = await fetch(`https://www.omdbapi.com/?apikey=ff5a3bcf&i=${movieId}`)
         const data = await response.json()
         renderMovie(data)
     }

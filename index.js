@@ -14,7 +14,7 @@ async function getMovie(){
     search.disabled = true
 
     //API used here
-    const response = await fetch(`http://www.omdbapi.com/?apikey=ff5a3bcf&s=${input.value.replace(/\s/g, "+")}&type=movie`)
+    const response = await fetch(`https://www.omdbapi.com/?apikey=ff5a3bcf&s=${input.value.replace(/\s/g, "+")}&type=movie`)
     const data = await response.json()
 
     //For checking if the inputed value is available or not in the API
@@ -33,7 +33,7 @@ async function getMovie(){
 async function getMovieData(moviesIdArray){
     //API used to get the detailed data of a particular movie
     for(let movieId of moviesIdArray){
-        const response = await fetch(`http://www.omdbapi.com/?apikey=ff5a3bcf&i=${movieId}`)
+        const response = await fetch(`https://www.omdbapi.com/?apikey=ff5a3bcf&i=${movieId}`)
         const data = await response.json()
         renderMovie(data)
     }
