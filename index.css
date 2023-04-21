@@ -20,6 +20,11 @@ html, body {
     margin-bottom: 1rem;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
 #headers a{
     color: white;
     text-decoration: none;
@@ -49,7 +54,7 @@ html, body {
     border-radius: 5px;
 }
 
-.fa-solid{
+.fa-magnifying-glass{
     padding: 10px 10px;
     color: #9CA3AF;
 }
@@ -119,7 +124,7 @@ html, body {
 
 .movieSubData1{
     display: flex;
-    align-items: center;
+    align-items: baseline;
     gap: 0.8rem;
 }
 
@@ -149,13 +154,13 @@ html, body {
 }
 
 .iconStar{
-    width: 15px;
-    height: 15px;
+    width: 14px;
+    height: 14px;
 }
 
 .movieRating{
     font-size: 14px;
-    margin-left: -10px;
+    margin-left: -7px;
 }
 
 .bio{

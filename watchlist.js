@@ -37,7 +37,7 @@ function displayEmpty(){
         watchlistEmpty.innerHTML = `
             <div>Your watchlist is looking a little empty...</div>
             <div>
-                <a href="index.html"><img src="images/Icon-watchlist.png" alt=""></a>
+                <a href="index.html"><i class="fa-solid fa-circle-plus fa-lg"></i></a>
                 <div>Let’s add some movies!</div>
             </div>`
     }
