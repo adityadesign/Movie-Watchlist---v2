@@ -1,4 +1,4 @@
-import { Movies } from "./movies.js"
+import { Movies } from "../movies.js"
 
 const search = document.getElementById('searchBtn')
 const input = document.getElementById('input')
