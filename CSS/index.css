@@ -29,13 +29,13 @@ a{
     color: white;
     text-decoration: none;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 0.875;
     margin-top: 5px;
 }
 
 #headers h1{
     font-weight: 800;
-    font-size: 42px;
+    font-size: 2.625rem;
 }
 
 /* SEARCH */
@@ -47,7 +47,8 @@ a{
     right: 0;
     margin-left: auto;
     margin-right: auto;
-    width: 460px;
+    width: 80vw;
+    max-width: 450px;
     background-color: #2E2E2F;
     display: flex;
     align-items: center;
@@ -130,7 +131,7 @@ a{
 
 .movieSubData2{
     display: flex;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 300;
     gap: 1rem;
 }
@@ -149,7 +150,7 @@ a{
 }
 
 .movieTitle{
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 500;
 }
 
@@ -159,19 +160,19 @@ a{
 }
 
 .movieRating{
-    font-size: 14px;
+    font-size: 0.875rem;
     margin-left: -7px;
 }
 
 .bio{
     color: #A5A5A5;
-    font-size: 14px;
+    font-size: 0.875rem;
     line-height: 1.2;
 }
 
 .added{
     font-weight: 700;
-    font-size: 15px;
+    font-size: 0.938rem;
 }
 
 .fa-circle-check{
@@ -184,7 +185,7 @@ a{
 .error{
     font-weight: bold;
     color: #787878;
-    font-size: 18px;
+    font-size: 1.125rem;
     margin: 8rem 3rem 0;
     text-align: center;
 }
@@ -199,7 +200,7 @@ a{
     margin-top: 8rem;
     color: #787878;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 1.125rem;
     margin-bottom: 0.5rem;
 }
 
@@ -208,7 +209,7 @@ a{
     gap: 0.5rem;
     font-weight: bold;
     color: white;
-    font-size: 14px;
+    font-size: 0.875rem;
     align-items: center;
 }
 
